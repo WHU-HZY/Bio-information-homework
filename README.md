@@ -33,7 +33,7 @@
 
 * 基于改良VAE模型的多模态细胞信息深度聚类算法  
 
-  <img src="/Users/huzhangyi/Desktop/截屏2023-12-23 19.43.59.png" alt="截屏2023-12-23 19.43.59" style="zoom:40%;" />
+  <img src="imgs/global.png" alt="截屏2023-12-23 19.43.59" style="zoom:%;" />
 
 
 本文所述是一种用于**聚类**单细胞**多组学数据**的多**模态深度学习方法**。
@@ -151,7 +151,7 @@ bash run_scMDC_script.sh
 
 直接对原始拼接特征进行umap
 
-<img src="/Users/huzhangyi/Library/Application Support/typora-user-images/image-20231223191421333.png" alt="image-20231223191421333" style="zoom: 33%;" />
+<img src="imgs/1.png" alt="image-20231223191421333" style="zoom: 33%;" />
 
 
 
@@ -159,10 +159,10 @@ bash run_scMDC_script.sh
 
 经过我们的模态整合算法以后的特征进行umap(label)
 
-<img src="/Users/huzhangyi/Library/Application Support/typora-user-images/image-20231223192256593.png" alt="image-20231223192256593" style="zoom: 33%;" />
+<img src="imgs/2.png" alt="image-20231223192256593" style="zoom: 33%;" />
 
 #### **Our Algorithm's ground truth (cluster):**
 
 经过我们的模态整合算法以后的特征进行umap(无监督聚类)
 
-<img src="/Users/huzhangyi/Library/Application Support/typora-user-images/image-20231223192834040.png" alt="image-20231223192834040" style="zoom: 33%;" />
+<img src="imgs/3.png" alt="image-20231223192834040" style="zoom: 33%;" />
